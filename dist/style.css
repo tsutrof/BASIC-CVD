@@ -315,9 +315,9 @@
 
 .banner a#banner__btn{
     text-transform: uppercase;
-    border: 1px solid transparent !important;
+    b
+order: 1px solid transparent !important;
 }
-
 
 @media screen and (max-width:500px){
     .banner .banner__wrapper{
@@ -343,6 +343,62 @@
 }
 
 /*-----------------------------------BANNER END------------------------------------*/
+
+/*---------------HOME-SERVICES-----------------*/
+
+.hm-services{
+    background: #2b2b2b;
+    padding: 8rem 0;
+}
+
+.hm-services .hm-services__item i{
+    font-size: 5rem;
+    color: #ffa700;
+    margin-bottom: 2rem;
+}
+
+.hm-services .hm-services__item h4{
+    color: #ffa700;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.hm-services .hm-services__item p{
+    color: #ffffff;
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.hm-services .hm-services__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hm-services .hm-services__item{
+    text-align: center;
+    margin: 0 5rem;
+
+}
+
+@media screen and (max-width:500px) {
+    .hm-services{
+        padding: 5rem 0;
+    }
+
+    .hm-services .hm-services__wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10rem;
+    }
+
+    .hm-services .hm-services__item{
+        text-align: center;
+        margin: 0 3rem;
+    }
+  
+}
+
+/*---------------HOME-SERVICES END-----------------*/
 
 
 /*--------------------------------------ABOUT-------------------------------------*/
